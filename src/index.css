@@ -1,3 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.custom_container {
+  @apply sm:max-w-xl md:max-w-full lg:max-w-screen-xl mx-auto
+}
+
+.active_Items {
+  @apply bg-white text-orange-600 transition-colors duration-300 font-poppins font-semibold hover:text-orange-400
+}
+
+.default_Items{
+    @apply bg-white text-gray-600 transition-colors duration-300 font-poppins hover:text-gray-400
+}

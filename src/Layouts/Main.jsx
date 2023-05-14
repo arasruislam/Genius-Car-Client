@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <>
       <MainHeader />
-      <div>
+      <div className="custom_container min-h-[calc(100vh-332px)] mt-28 ">
         <Outlet />
       </div>
       <Footer />
