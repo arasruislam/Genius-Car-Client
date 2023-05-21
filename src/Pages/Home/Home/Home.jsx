@@ -1,11 +1,17 @@
+import About from "../../About/About";
 import Slider from "../Slider/Slider";
 
 const Home = () => {
   return (
     <div>
       {/* Slider section */}
-      <section className="pt-2 pb-12">
+      <section className="pt-2 pb-12 px-2 lg:px-0">
         <Slider />
+      </section>
+
+      {/* About Us */}
+      <section className="mb-32 pt-12">
+        <About />
       </section>
     </div>
   );

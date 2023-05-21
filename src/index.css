@@ -3,15 +3,22 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .custom_container {
-  @apply sm:max-w-xl md:max-w-full lg:max-w-screen-xl mx-auto
+  @apply sm:max-w-xl md:max-w-full lg:max-w-screen-xl mx-auto;
 }
 
 .active_Items {
-  @apply bg-white text-orange-600 transition-colors duration-300 font-poppins font-semibold hover:text-orange-400
+  @apply bg-white text-orange-600 transition-colors duration-300 font-poppins font-semibold hover:text-orange-400;
 }
 
-.default_Items{
-    @apply bg-white text-gray-600 transition-colors duration-300 font-poppins hover:text-gray-400
+.default_Items {
+  @apply bg-white text-gray-600 transition-colors duration-300 font-poppins hover:text-gray-400;
+}
+
+.custom-btn {
+  @apply btn bg-red-500 border-red-500 hover:bg-red-600 hover:border-white;
+}
+
+.custom-outline-btn {
+  @apply btn btn-outline border-white text-white hover:bg-red-500 hover:border-red-500;
 }
