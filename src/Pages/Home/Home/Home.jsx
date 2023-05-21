@@ -10,9 +10,9 @@ const Home = () => {
       </section>
 
       {/* About Us */}
-      <section className="mb-32 pt-12">
+      
         <About />
-      </section>
+      
     </div>
   );
 };
