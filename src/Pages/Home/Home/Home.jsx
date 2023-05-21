@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
       {/* Slider section */}
-      <section>
+      <section className="pt-2 pb-12">
         <Slider />
       </section>
     </div>
