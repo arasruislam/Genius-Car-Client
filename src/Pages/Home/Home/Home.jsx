@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="mb-16">
       {/* Slider section */}
-      <section className="pt-2 pb-12 px-2 lg:px-0">
+      <section className="pt-2 pb-12 px-1 lg:px-0">
         <Slider />
       </section>
 
@@ -21,7 +21,7 @@ const Home = () => {
       </section>
 
       {/* Address */}
-      <section className="my-20">
+      <section className="my-20 mx-2 sm:mx-0">
         <Address />
       </section>
 
@@ -29,8 +29,6 @@ const Home = () => {
       <section>
         <Products />
       </section>
-
-      
     </div>
   );
 };

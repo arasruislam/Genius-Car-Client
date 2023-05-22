@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 .custom_container {
-  @apply sm:max-w-xl md:max-w-full lg:max-w-screen-xl mx-auto;
+  @apply sm:max-w-xl md:max-w-full md:mx-4 xl:mx-auto lg:max-w-screen-xl mx-auto;
 }
 
 .active_Items {

@@ -1,7 +1,7 @@
 import { FaMapMarkedAlt, FaRegCalendarCheck, FaPhoneAlt } from "react-icons/fa";
 const Address = () => {
   return (
-    <div className="flex justify-around items-center bg-[#151515] py-12 px-4 rounded-lg">
+    <div className="flex justify-start sm:justify-around items-center flex-wrap bg-[#151515] py-12 px-4 md:px-8 lg:px-4 space-y-4 lg:space-y-0  rounded-lg">
       {/* Calendar */}
       <div className="flex items-center gap-2">
         <FaRegCalendarCheck className="h-8 w-8 text-gray-300" />

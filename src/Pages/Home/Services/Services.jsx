@@ -19,7 +19,7 @@ const Services = () => {
       <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-items-center gap-4 mt-8">
         {/* Single Card Information */}
         <div className="card w-72 bg-base-100 shadow-lg border-2 border-gray-200">
-          <figure className="px-5 pt-6">
+          <figure className="px-5 pt-5">
             <img src={img1} alt="Shoes" className="rounded-xl" />
           </figure>
           <div className="card-body p-4">

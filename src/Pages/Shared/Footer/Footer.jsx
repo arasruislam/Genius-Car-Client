@@ -3,14 +3,18 @@ import logo from "../../../assets/logo.svg";
 
 const Footer = () => {
   return (
-    <footer className="py-10 bg-gray-800 text-gray-300">
-      <div className="footer custom_container">
+    <footer className="py-10 bg-gray-800 text-gray-300 flex">
+      <div className="footer footer-center md:footer custom_container">
         {/* Logo */}
         <div>
           <Link to="/" className="fill-current">
-            <img src={logo} className="w-2/3 sm:w-full" alt="Website Logo" />
+            <img
+              src={logo}
+              className="w-2/3 sm:w-full mx-auto"
+              alt="Website Logo"
+            />
           </Link>
-          <p>
+          <p className="md:text-left">
             ACME Industries Ltd.
             <br />
             Providing reliable tech since 1992
