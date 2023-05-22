@@ -1,4 +1,6 @@
 import About from "../../About/About";
+import Address from "../Address/Address";
+import Products from "../Products/Products";
 import Services from "../Services/Services";
 import Slider from "../Slider/Slider";
 
@@ -17,6 +19,18 @@ const Home = () => {
       <section>
         <Services />
       </section>
+
+      {/* Address */}
+      <section className="my-20">
+        <Address />
+      </section>
+
+      {/* Products */}
+      <section>
+        <Products />
+      </section>
+
+      
     </div>
   );
 };
